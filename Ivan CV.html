@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ivan CV</title>
+</head>
+<body>
+    
+    <img src="CLuWdjB0MJY.jpg"
+     width="100" alt=" тут моя фотка"/>
+    <h1>Иван Юрьевич</h1> 
+    <p><em>Я работаю вкомпании Транснефть
+    </strong></em></p>
+    <p>Я люблю програмировать и рисовать </p>
+
+    <hr>
+
+    <h1>Мои социальные сети</h1>
+    <ul>
+      <li> <a href ="https://instagram.com/vladilen.mini" 
+    target="_blank"> 
+     Instagram </a></li>
+     <li> <a href ="https://t.me/js_by_vladilen"
+    target="_blank"> 
+    Telegram <a></li>
+    </ul>
+
+    <h2>Мои хобби</h2>
+    <ol>
+    <li>Програмирование</li>
+    <li>Чтение книг</li>
+    <li>Рисование</li>
+    <li>Путешествие</li>
+    </ol>
+<h2> Отпыт работы</h2>
+<table border="2"> 
+    <tr>
+        <th>компания</th>
+        <th>должность</th>
+        <th>год</th>
+
+    </tr>
+    <tr>
+       <td> ЧТПЗ</td>
+        <td>слесарь сборщик</td>
+        <td>2011-2012</td>
+</tr>
+<tr>
+    <td>Транснефть Нефтяные Насосы</td>
+    <td>слесать МСР</td>
+    <td>2015-2023</td>
+</tr>
+</table>
+    <h2>Youtybe Курсы</h2>
+    <a href="youtybe.html">посмотреть список</a>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
